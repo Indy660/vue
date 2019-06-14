@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <script src="vue.js"></script>
+</head>
+
+<body>
+<div id="app-1">
+    <p> Введите логин и пароль </p>
+    <input v-model="message" placeholder="Логин">
+    <p>
+    <input v-model="message" placeholder="Пароль">
+        <p>
+        <button v-on:click="submit('Вы успешно вошли', $event)">Войти</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
